@@ -1,0 +1,24 @@
+<div class="bg-white rounded-md shadow-lg py-4 flex flex-col gap-3">
+    <div class="flex justify-between  px-5  content-center">
+        <p class="text-sm text-gray-500">Account</p>
+        <img src="../../../assets/close.svg"   (click)="Emit()"  class="w-4 h-4 cursor-pointer" alt="">
+    </div>  
+      <hr>
+    <div class=" flex flex-row gap-3 px-5  ">
+        <img src="../../../assets/339173763_221231667226339_8471894531456174778_n.jpg" class="w-14 rounded-full" alt="">
+        <div>
+            <p class="text-base">Rodrigo Ibarra Rodriguez </p>
+            <p class="text-sm">Rodrigoibarramzt@gmail.com</p>
+        </div>
+    </div>
+    <hr>
+    <div class=" flex flex-col gap-3  px-5">
+        <p class="cursor-pointer hover:underline">Profile</p>
+        <p class="cursor-pointer hover:underline">Activity</p>
+        <p class="cursor-pointer hover:underline">Cards</p>
+        <p class="cursor-pointer hover:underline">Settings</p>
+        <p class="cursor-pointer hover:underline">Sing out</p>
+    </div>
+    <hr>
+    <p class="px-5 cursor-pointer hover:underline" routerLink="/login">Log out</p>
+</div>
